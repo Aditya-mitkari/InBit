@@ -23,6 +23,13 @@ We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. 
 
 */
 
+//////////// Notes //////////
+/*
+use the principle of kadane's algorithm
+keep a sum, +1 when 0 and -1 when 1
+when sum gets -ve reset sum and pointer 
+*/
+
 vector<int> Solution::flip(string A) 
 {
   vector<int> ans;
